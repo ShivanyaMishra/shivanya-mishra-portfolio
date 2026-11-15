@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900" fill="none">
+  <!-- Outer Card & White Background -->
+  <rect width="800" height="900" rx="12" fill="#FFFFFF"/>
+  
+  <!-- Outer Blue Decorative Guilloche Border -->
+  <rect x="24" y="24" width="752" height="852" rx="8" fill="none" stroke="#0284C7" stroke-width="2.5"/>
+  <rect x="32" y="32" width="736" height="836" rx="4" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="10 5"/>
+  
+  <!-- Corner Knots -->
+  <path d="M24 60 C40 40, 40 40, 60 24" stroke="#0284C7" stroke-width="2" fill="none"/>
+  <path d="M776 60 C760 40, 760 40, 740 24" stroke="#0284C7" stroke-width="2" fill="none"/>
+  <path d="M24 840 C40 860, 40 860, 60 876" stroke="#0284C7" stroke-width="2" fill="none"/>
+  <path d="M776 840 C760 860, 760 860, 740 876" stroke="#0284C7" stroke-width="2" fill="none"/>
+
+  <!-- Top Title -->
+  <text x="400" y="60" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#0C4A6E" letter-spacing="4">CERTIFICATE</text>
+
+  <!-- Line Divider -->
+  <line x1="60" y1="80" x2="740" y2="80" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Subtitle -->
+  <text x="400" y="140" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="15" font-weight="700" fill="#0F172A" letter-spacing="1.5">THIS CERTIFIES THAT</text>
+
+  <!-- Name -->
+  <text x="400" y="215" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="42" font-weight="800" fill="#034575" letter-spacing="0.5">SHIVANYA MISHRA</text>
+
+  <!-- Email link placeholder -->
+  <text x="400" y="258" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="500" fill="#0284C7">View email address</text>
+
+  <!-- Test Date text -->
+  <text x="400" y="330" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#0F172A" letter-spacing="1">HAS PASSED THE FOLLOWING PUBLIC TEST ON APR 6, 2026:</text>
+
+  <!-- Test Topic -->
+  <text x="400" y="395" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#0284C7" letter-spacing="1">DATA ANALYSIS</text>
+
+  <!-- Ranking Distinction -->
+  <text x="400" y="440" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="17" font-weight="800" fill="#0C4A6E" letter-spacing="1.5">RANKING IN THE TOP 25%</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="480" x2="740" y2="480" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <!-- Description paragraph -->
+  <text x="400" y="525" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="15" font-weight="400" fill="#334155">
+    <tspan x="400" dy="0">TestDome is an online skills tests platform that uses work-sample testing</tspan>
+    <tspan x="400" dy="24">methodology to screen knowledge workers. Candidates are evaluated through</tspan>
+    <tspan x="400" dy="24">small samples of actual work that show how they solve problems in the real world.</tspan>
+  </text>
+
+  <!-- TestDome Logo -->
+  <g transform="translate(325, 620)">
+    <path d="M30 32 C15 32 6 22 6 12 C6 5 16 0 30 0 C44 0 54 5 54 12 C54 22 45 32 30 32 Z" fill="#0284C7"/>
+    <path d="M22 14 L38 14 M30 8 L30 26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="65" y="24" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="800" fill="#034575" letter-spacing="1.5">TESTDOME</text>
+  </g>
+
+  <!-- Silver Bottom Badge Card (Top 25%) -->
+  <g transform="translate(290, 680)">
+    <rect width="220" height="175" rx="8" fill="#9CA3AF"/>
+    <text x="18" y="38" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Shivanya Mishra</text>
+    <text x="18" y="65" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="700" fill="#F1F5F9">DATA ANALYSIS</text>
+    <text x="18" y="115" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" letter-spacing="0.5">TESTDOME</text>
+    <text x="18" y="132" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" letter-spacing="0.5">CERTIFICATE</text>
+    <!-- Badge emblem curves -->
+    <circle cx="170" cy="120" r="35" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="4"/>
+    <circle cx="170" cy="120" r="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="3"/>
+  </g>
+</svg>

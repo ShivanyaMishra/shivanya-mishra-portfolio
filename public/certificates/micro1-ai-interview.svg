@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" fill="none">
+  <!-- Dark Background with Outer Border -->
+  <rect width="1000" height="750" rx="16" fill="#000000"/>
+  <rect x="24" y="24" width="952" height="702" rx="12" fill="none" stroke="#262626" stroke-width="1.5"/>
+
+  <!-- Subtle Green Radial Glow -->
+  <circle cx="500" cy="200" r="160" fill="#10B981" fill-opacity="0.12"/>
+
+  <!-- Scalloped Green Badge with Checkmark -->
+  <g transform="translate(436, 130)">
+    <path d="M64 0 C76 0 85 10 96 14 C107 18 120 16 128 26 C136 36 134 49 138 60 C142 71 152 80 152 92 C152 104 142 113 138 124 C134 135 136 148 128 158 C120 168 107 166 96 170 C85 174 76 184 64 184 C52 184 43 174 32 170 C21 166 8 168 0 158 C-8 148 -6 135 -10 124 C-14 113 -24 104 -24 92 C-24 80 -14 71 -10 60 C-6 49 -8 36 0 26 C8 16 21 18 32 14 C43 10 52 0 64 0 Z" fill="#22C55E"/>
+    <!-- White Checkmark -->
+    <path d="M46 92 L58 106 L84 76" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title: Certified by micro1 -->
+  <text x="500" y="360" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">
+    Certified by <tspan fill="#4F75FF">micro1</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="500" y="415" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="400" fill="#A3A3A3">
+    This is to certify that
+  </text>
+
+  <!-- Name -->
+  <text x="500" y="495" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">
+    Shivanya Mishra
+  </text>
+
+  <!-- Achievement Description -->
+  <text x="500" y="555" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="18" font-weight="400" fill="#E5E5E5">
+    had an outstanding performance during micro1's AI Interview
+  </text>
+
+  <!-- Bottom Left: micro1 brand & verification -->
+  <g transform="translate(70, 650)">
+    <text x="0" y="0" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">micro1<tspan fill="#4F75FF">.</tspan></text>
+    <text x="0" y="24" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="400" fill="#A3A3A3">Become certified at micro1.ai/apply-as-talent</text>
+  </g>
+
+  <!-- Bottom Center: Date -->
+  <text x="500" y="674" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="13" font-weight="500" fill="#E5E5E5">
+    On August 5th, 2026
+  </text>
+
+  <!-- Bottom Right: Founder signature & title -->
+  <g transform="translate(810, 645)">
+    <!-- Signature Curve -->
+    <path d="M-60 10 Q -40 -15, -20 5 Q 0 -25, 20 8 Q 30 -5, 45 10" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="0" y="28" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="500" fill="#A3A3A3">Ali Ansari, founder/ceo</text>
+  </g>
+</svg>
